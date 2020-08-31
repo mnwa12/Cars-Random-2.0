@@ -1,0 +1,66 @@
+@CHARSET "UTF-8";
+
+html, body,img, div
+{
+	margin: 0px;
+	padding: 0px;
+	vertical-align: top;
+	border: none;
+}
+html, body
+{
+	width: 800px;
+	height: 600px;
+	text-align: left;
+	background-color: black;
+}
+#fon
+{
+    width: 1920px;
+	height: 1080px;
+	background-image: url('dyra.webm');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: top left;
+	text-align: left;
+}
+input 
+{
+position: absolute;
+left: 100px;
+top: 40px;
+width: 250px;
+height: 125px;
+font-size: 35px;
+font-family: arial;
+color: red;
+}
+img
+{
+	position: absolute;
+}
+#p0,#p1,#p2,#p3,#p4
+{
+	left: 1720px;
+}
+#p0
+{
+	top: 250px;
+}
+#p1
+{
+	top: 375px;
+}
+#p2
+{
+	top: 500px;
+}
+#p3
+{
+	top: 625px;
+}
+#p4
+{
+	top: 750px;
+}
+
