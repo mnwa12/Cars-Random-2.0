@@ -1,7 +1,7 @@
-var tm;
-var cars;
-var cx;
-var gameBegin;
+let tm;
+let cars;
+let cx;
+let gameBegin;
 
 function go()
 {
@@ -9,13 +9,13 @@ function go()
    gameBegin = 1;
    cars = new Array();
    
-   for(var i=0; i<5; i++)
+   for(let i=0; i<5; i++)
    {
 	 cars[i] = document.getElementById("p"+i);
 	 cars[i].style.border = "none";
    }
    cx = new Array();
-   for(var i=0; i<5; i++)
+   for(let i=0; i<5; i++)
 	   {
 	   cx[i] = 1720;
 	   }
@@ -23,7 +23,7 @@ function go()
 }
 function timerGo()
 {
- for(var i=0; i<5; i++)
+ for(let i=0; i<5; i++)
 	 {
 	   cx[i] = cx[i] - Math.floor((Math.random()*10+3.3));
 	   
